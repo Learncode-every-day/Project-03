@@ -4,7 +4,6 @@
 
 :root {
     --header-bg: #10375c;
-    --primary-color: #2e80ce;
 }
 
 html {
@@ -22,22 +21,15 @@ a {
 }
 
 .btn {
-    --height: 60px;
     display: inline-block;
-    height: var(--height);
+    height: 60px;
     min-width: 205px;
     padding: 0 20px;
     border-radius: 99px;
-    border: 1px solid var(--primary-color);
     text-align: center;
-    line-height: var(--height);
+    line-height: 60px;
     color: #fff;
-    background: var(--primary-color);
-}
-
-.btn:hover {
-    opacity: 0.9;
-    cursor: pointer;
+    background: #2e80ce;
 }
 
 .container {
@@ -70,7 +62,7 @@ a {
 .logo__circle::before {
     width: 3em;
     height: 3em;
-    background: var(--primary-color);
+    background: #2e80ce;
 }
 
 .logo__circle::after {
@@ -136,9 +128,4 @@ a {
     height: 6px;
     border-radius: 50%;
     background: #fff;
-}
-
-.action__signup {
-    --height: 44px;
-    min-width: 104px;
 }

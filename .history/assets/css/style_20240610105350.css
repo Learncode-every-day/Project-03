@@ -4,7 +4,6 @@
 
 :root {
     --header-bg: #10375c;
-    --primary-color: #2e80ce;
 }
 
 html {
@@ -19,25 +18,6 @@ body {
 /* ===== Common ===== */
 a {
     text-decoration: none;
-}
-
-.btn {
-    --height: 60px;
-    display: inline-block;
-    height: var(--height);
-    min-width: 205px;
-    padding: 0 20px;
-    border-radius: 99px;
-    border: 1px solid var(--primary-color);
-    text-align: center;
-    line-height: var(--height);
-    color: #fff;
-    background: var(--primary-color);
-}
-
-.btn:hover {
-    opacity: 0.9;
-    cursor: pointer;
 }
 
 .container {
@@ -70,7 +50,7 @@ a {
 .logo__circle::before {
     width: 3em;
     height: 3em;
-    background: var(--primary-color);
+    background: #2e80ce;
 }
 
 .logo__circle::after {
@@ -111,7 +91,6 @@ a {
     display: flex;
 }
 
-.action__login,
 .navbar__link {
     padding: 4px 21px;
     color: #c9d2da;
@@ -120,25 +99,7 @@ a {
     line-height: 1.75; /* 175% */
 }
 
-.navbar__link:hover,
 .navbar__link--active {
     text-shadow: 1px 0 0 currentColor;
     font-weight: 400;
-}
-
-.navbar__link--active::before {
-    position: relative;
-    left: -8px;
-    top: -2px;
-    content: "";
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #fff;
-}
-
-.action__signup {
-    --height: 44px;
-    min-width: 104px;
 }

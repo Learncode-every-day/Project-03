@@ -4,7 +4,6 @@
 
 :root {
     --header-bg: #10375c;
-    --primary-color: #2e80ce;
 }
 
 html {
@@ -28,11 +27,11 @@ a {
     min-width: 205px;
     padding: 0 20px;
     border-radius: 99px;
-    border: 1px solid var(--primary-color);
+    border: 1px solid #2e80ce;
     text-align: center;
     line-height: var(--height);
     color: #fff;
-    background: var(--primary-color);
+    background: #2e80ce;
 }
 
 .btn:hover {
@@ -70,7 +69,7 @@ a {
 .logo__circle::before {
     width: 3em;
     height: 3em;
-    background: var(--primary-color);
+    background: #2e80ce;
 }
 
 .logo__circle::after {
