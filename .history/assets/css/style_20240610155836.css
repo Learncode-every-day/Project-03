@@ -13,7 +13,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: Sora, sans-serif;
+    font-family: Sora;
 }
 
 /* ===== Common ===== */
@@ -108,6 +108,7 @@ a {
     display: block;
     color: #fff;
     font-size: 1.8em;
+    font-weight: 400;
 }
 
 .logo__brand--small {
@@ -243,23 +244,4 @@ a {
 .service__heading,
 .service__desc {
     text-align: center;
-}
-
-.service__desc {
-    width: 468px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.service__row {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 70px;
-}
-
-.service__img {
-    width: 570px;
-    height: 570px;
-    border-radius: 12px;
-    object-fit: cover;
 }

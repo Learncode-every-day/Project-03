@@ -13,7 +13,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: Sora, sans-serif;
+    font-family: Sora;
 }
 
 /* ===== Common ===== */
@@ -108,6 +108,7 @@ a {
     display: block;
     color: #fff;
     font-size: 1.8em;
+    font-weight: 400;
 }
 
 .logo__brand--small {
@@ -253,7 +254,6 @@ a {
 
 .service__row {
     display: flex;
-    justify-content: space-between;
     margin-top: 70px;
 }
 
