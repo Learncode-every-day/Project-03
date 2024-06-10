@@ -155,13 +155,12 @@ a {
 /* ==== Hero ==== */
 .hero {
     display: flex;
-    align-items: center;
     margin-top: 76px;
 }
 
 .hero__content {
     flex-shrink: 0;
-    width: 45.3%;
+    width: 44%;
 }
 
 .hero__media {
@@ -191,31 +190,7 @@ a {
 }
 
 .hero__phone {
-    margin-left: 38px;
     color: #fff;
     font-size: 1.8rem;
     line-height: 1.67; /* 166.667% */
-}
-
-.hero__images {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.hero__img {
-    width: 330px;
-    height: 540px;
-    border-radius: 6px;
-    object-fit: cover;
-}
-
-.hero__img:first-child {
-    position: relative;
-    margin-right: -6px;
-}
-
-.hero__img:last-child {
-    width: 210px;
-    height: 410px;
 }

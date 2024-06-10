@@ -161,7 +161,7 @@ a {
 
 .hero__content {
     flex-shrink: 0;
-    width: 45.3%;
+    width: 44%;
 }
 
 .hero__media {
@@ -211,7 +211,6 @@ a {
 }
 
 .hero__img:first-child {
-    position: relative;
     margin-right: -6px;
 }
 
