@@ -16,10 +16,6 @@ body {
 }
 
 /* ===== Common ===== */
-a {
-    text-decoration: none;
-}
-
 .container {
     width: 1170px;
     max-width: calc(100% - 48px);
@@ -34,7 +30,7 @@ a {
 
 /* === Logo === */
 .logo {
-    display: inline-flex;
+    display: flex;
     position: relative;
     font-size: 1rem;
 }
@@ -63,18 +59,11 @@ a {
 
 .logo__text {
     margin-left: 0.6em;
-    text-align: right;
-    line-height: 1.6em;
-}
-
-.logo__brand {
-    display: block;
     color: #fff;
     font-size: 1.8em;
     font-weight: 400;
 }
 
-.logo__brand--small {
-    font-size: 1.2em;
-    font-weight: 300;
+.logo__brand {
+    display: block;
 }

@@ -16,10 +16,6 @@ body {
 }
 
 /* ===== Common ===== */
-a {
-    text-decoration: none;
-}
-
 .container {
     width: 1170px;
     max-width: calc(100% - 48px);
@@ -34,7 +30,7 @@ a {
 
 /* === Logo === */
 .logo {
-    display: inline-flex;
+    display: flex;
     position: relative;
     font-size: 1rem;
 }
