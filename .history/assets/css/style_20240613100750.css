@@ -345,7 +345,6 @@ a {
 }
 
 .work-item:hover {
-    transform: translateY(-16px);
     border-color: #2e80ce;
 }
 

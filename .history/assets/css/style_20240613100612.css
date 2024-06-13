@@ -341,12 +341,6 @@ a {
     border: 16px solid #eaf6ff;
     border-radius: 4px;
     padding: 44px 42px;
-    transition: 0.25s;
-}
-
-.work-item:hover {
-    transform: translateY(-16px);
-    border-color: #2e80ce;
 }
 
 .work-item__heading {
@@ -366,7 +360,6 @@ a {
 }
 
 .work-item__more {
-    display: inline-block;
     margin-top: 18px;
     color: #2e80ce;
     font-size: 1.6rem;
