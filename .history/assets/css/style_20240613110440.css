@@ -490,9 +490,4 @@ a {
     background: #2e80ce;
     border: #2e80ce;
     color: #fff;
-    cursor: pointer;
-}
-
-.member__control-next-icon {
-    rotate: 180deg;
 }

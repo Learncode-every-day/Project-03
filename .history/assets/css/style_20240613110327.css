@@ -481,18 +481,10 @@ a {
     border-radius: 50%;
     border: 1px solid #575f66;
     outline: none;
-    color: #575f66;
     background: #fff;
-    transition: 0.25s;
 }
 
 .member__control-btn:hover {
     background: #2e80ce;
     border: #2e80ce;
-    color: #fff;
-    cursor: pointer;
-}
-
-.member__control-next-icon {
-    rotate: 180deg;
 }

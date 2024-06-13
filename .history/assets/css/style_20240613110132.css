@@ -469,30 +469,11 @@ a {
     margin-top: 38px;
     display: flex;
     justify-content: center;
-    column-gap: 18px;
 }
 
 .member__control-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 36px;
     height: 36px;
     border-radius: 50%;
     border: 1px solid #575f66;
-    outline: none;
-    color: #575f66;
-    background: #fff;
-    transition: 0.25s;
-}
-
-.member__control-btn:hover {
-    background: #2e80ce;
-    border: #2e80ce;
-    color: #fff;
-    cursor: pointer;
-}
-
-.member__control-next-icon {
-    rotate: 180deg;
 }
