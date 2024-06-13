@@ -380,9 +380,7 @@ a {
 }
 
 .feature__inner {
-    display: flex;
-    align-items: center;
-    column-gap: 130px;
+    df
 }
 
 .feature__media {
@@ -391,7 +389,7 @@ a {
 
 .feature__images {
     position: relative;
-    padding: 0 58px 121px 0;
+    padding-bottom: 121px;
 }
 
 .feature__img {
@@ -407,8 +405,4 @@ a {
     height: 370px;
     bottom: 0;
     right: 0;
-}
-
-.feature__cta {
-    margin-top: 38px;
 }

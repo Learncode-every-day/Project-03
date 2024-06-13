@@ -381,7 +381,6 @@ a {
 
 .feature__inner {
     display: flex;
-    align-items: center;
     column-gap: 130px;
 }
 

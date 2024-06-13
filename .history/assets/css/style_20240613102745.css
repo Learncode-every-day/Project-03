@@ -381,7 +381,6 @@ a {
 
 .feature__inner {
     display: flex;
-    align-items: center;
     column-gap: 130px;
 }
 
@@ -391,7 +390,7 @@ a {
 
 .feature__images {
     position: relative;
-    padding: 0 58px 121px 0;
+    padding-bottom: 121px;
 }
 
 .feature__img {
@@ -406,7 +405,7 @@ a {
     width: 332px;
     height: 370px;
     bottom: 0;
-    right: 0;
+    left: 238px;
 }
 
 .feature__cta {
