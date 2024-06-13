@@ -265,10 +265,6 @@ a {
     object-fit: cover;
 }
 
-.service__list {
-    margin-bottom: 55px;
-}
-
 /* === Service Item === */
 .service-item {
     display: flex;
@@ -282,6 +278,7 @@ a {
 .service-item:hover {
     position: relative;
     box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
 }
 
 .service-item:hover .service-item__icon {
@@ -312,7 +309,7 @@ a {
     font-weight: 600;
 }
 
-.service-item__desc {
+.service__desc {
     margin-top: 8px;
     color: #575f66;
     font-size: 1.6rem;

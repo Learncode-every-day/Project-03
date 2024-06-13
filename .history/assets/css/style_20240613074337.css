@@ -265,10 +265,6 @@ a {
     object-fit: cover;
 }
 
-.service__list {
-    margin-bottom: 55px;
-}
-
 /* === Service Item === */
 .service-item {
     display: flex;
