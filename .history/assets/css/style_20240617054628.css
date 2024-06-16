@@ -504,7 +504,7 @@ a {
 
 /* ===== Install ===== */
 .install {
-    margin-top: 180px;
+    margin-top: 85px;
 }
 
 .install__inner {
@@ -534,11 +534,5 @@ a {
 }
 
 .install__heading {
-    max-width: 538px;
-}
-
-.install__row {
-    display: flex;
-    margin-top: 38px;
-    column-gap: 28px;
+    max-width: 489px;
 }
