@@ -667,7 +667,6 @@ a {
     padding: 100px 70px;
     background: #f6fbff;
     text-align: center;
-    border-radius: 4px;
 }
 
 .appointment__heading {
@@ -689,7 +688,6 @@ a {
 }
 
 .appointment__desc {
-    max-width: 651px;
-    margin: 18px auto 38px;
-    font-size: 1.6rem;
+    max-width: 617px;
+    margin: 0 auto;
 }
