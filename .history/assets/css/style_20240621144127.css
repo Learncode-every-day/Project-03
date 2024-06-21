@@ -26,7 +26,6 @@ textarea,
 select,
 button {
     font-family: inherit;
-    font-size: inherit;
 }
 
 .btn {
@@ -705,7 +704,7 @@ button {
 
 /* ===== Footer ===== */
 .footer {
-    padding-top: 100px;
+    padding: 100px 0;
     background: #10375c;
     font-family: "Open Sans", sans-serif;
 }
@@ -787,7 +786,6 @@ button {
     border-radius: 4px;
     border: 1px solid #406181;
     background: transparent;
-    color: #fff;
 }
 
 .footer-form__input::placeholder {
@@ -802,16 +800,4 @@ button {
     border-radius: 4px;
     font-size: 1.6rem;
     font-weight: 600;
-}
-
-.footer__copyright {
-    padding: 28px 0 42px;
-    border-top: 1px solid #406181;
-}
-
-.footer__copyright-text {
-    color: #aab3ba;
-    text-align: center;
-    font-size: 1.4rem;
-    line-height: 1.86; /* 185.714% */
 }
