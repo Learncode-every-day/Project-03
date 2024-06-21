@@ -582,7 +582,7 @@ a {
 }
 
 .news__list {
-    max-width: 570px;
+    max-width: 580px;
     display: flex;
     column-gap: 30px;
 }

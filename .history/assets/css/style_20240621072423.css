@@ -597,7 +597,6 @@ a {
 
 .news-item:hover {
     box-shadow: 0px 18px 50px 0px rgba(0, 0, 0, 0.05);
-    transform: translateY(-18px);
 }
 
 .news-item:hover .news-item__body {
@@ -617,7 +616,6 @@ a {
     border-radius: 0 0 12px 12px;
     border-top: none;
     background: #fff;
-    transition: 0.25s;
 }
 
 .news-item__heading {
