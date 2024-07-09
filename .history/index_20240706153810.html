@@ -91,7 +91,10 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
 
         <!-- Animation -->
-        <link rel="stylesheet" href="./assets/animation/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
     </head>
     <body>
         <!-- Header -->
@@ -147,9 +150,7 @@
                 <section class="hero">
                     <!-- Hero content -->
                     <section class="hero__content">
-                        <h1
-                            class="hero__heading animate__animated animate__bounceInDown"
-                        >
+                        <h1 class="hero__heading">
                             Exceptional dental care for all ages.
                         </h1>
                         <p class="hero__desc">
@@ -195,12 +196,11 @@
                         begins with a great dentist.
                     </p>
                     <div class="service__row">
-                        <!-- Thêm 1 class wow để có thể tương tác khi cuộn xuống -->
                         <figure>
                             <img
                                 src="./assets/img/service.avif"
                                 alt=""
-                                class="service__img wow animate__slideInLeft"
+                                class="service__img"
                             />
                         </figure>
                         <div>
@@ -839,17 +839,5 @@
                 </div>
             </div>
         </footer>
-        <!-- Animation: wow.js -->
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
-            integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
-        <script>
-            new WOW({
-                animateClass: "animate__animated",
-            }).init();
-        </script>
     </body>
 </html>
